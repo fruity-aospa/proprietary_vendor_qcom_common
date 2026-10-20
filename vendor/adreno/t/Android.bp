@@ -3,6 +3,9 @@
 //
 
 soong_namespace {
+    imports: [
+        "hardware/qcom-caf/sm8650",
+    ],
 }
 
 cc_prebuilt_library_shared {

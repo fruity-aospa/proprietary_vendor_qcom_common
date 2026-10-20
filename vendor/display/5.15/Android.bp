@@ -4,6 +4,7 @@
 
 soong_namespace {
     imports: [
+        "hardware/qcom-caf/sm8650",
         "vendor/qcom/common/vendor/display",
         "vendor/qcom/common/vendor/qseecomd-legacy",
         "vendor/qcom/common/vendor/qseecomd",
